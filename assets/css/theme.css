@@ -798,6 +798,10 @@ textarea {
     font-size: 30px;
     font-weight: bold;
     margin-top: -12px;
+
+    img{
+        width: 10rem;
+    }
 }
 .logo a {color: #ffffff; display: inline-block; line-height: 2em;}
 .logo a:hover {color: #dc143c;}
@@ -1465,7 +1469,13 @@ textarea {
     position: absolute;
     top: 0; left: 0;
     bottom: 0; right: 0;
-    background-color: rgba(220, 20, 60, .7);
+    /*background-color: rgba(220, 20, 60, .7);*/
+    background: radial-gradient(
+            circle,
+            rgb(180 40 60 / 85%) 0%,
+            rgb(111 0 22 / 85%) 40%,
+            rgb(50 0 10 / 85%) 100%
+    );
 }
 
 /* 3.2 - Event description
